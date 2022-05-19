@@ -27,16 +27,16 @@ import Button from './components/Button.vue';
     </div>
 
     <div class="container mx-auto mt-9 grid lg:grid-cols-3 xl:grid-cols-4 gap-8">
-      <div class="shadow-md rounded-xl overflow-hidden">
+      <div class="drop-shadow-card rounded-xl overflow-hidden">
         <img class="w-full" src="./assets/layout-01 1.jpg" />
       </div>
-      <div class="shadow-md rounded-xl overflow-hidden">
+      <div class="drop-shadow-card rounded-xl overflow-hidden">
         <img class="w-full" src="./assets/layout-01 1.jpg" />
       </div>
-      <div class="shadow-md rounded-xl overflow-hidden">
+      <div class="drop-shadow-card rounded-xl overflow-hidden">
         <img class="w-full" src="./assets/layout-01 1.jpg" />
       </div>
-      <div class="shadow-md rounded-xl overflow-hidden">
+      <div class="drop-shadow-card rounded-xl overflow-hidden">
         <img class="w-full" src="./assets/layout-01 1.jpg" />
       </div>
     </div>

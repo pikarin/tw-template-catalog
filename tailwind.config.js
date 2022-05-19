@@ -41,6 +41,9 @@ module.exports = {
         white: "#F5F5F5",
         overlay: "rgba(56, 60, 67, 0.5)",
       },
+      dropShadow: {
+        "card": '2px 2px 12px rgba(0, 0, 0, 0.25)'
+      },
     },
   },
   plugins: [],
