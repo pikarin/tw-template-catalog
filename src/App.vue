@@ -1,40 +1,48 @@
 <script setup>
 import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
-//
+import Button from './components/Button.vue';
 </script>
 
 <template>
   <header class="relative min-h-[75vh]">
-    <Nav class="container mx-auto" />
+    <Nav class="container mx-auto mt-4" />
       
     <div class="absolute h-full w-full flex items-center">
       <div class="container mx-auto">
         <h1 class="text-7xl font-bold">Tailwind based <br/> templates.</h1>
         <h2 class="mt-4 font-medium">Project template develop with tailwindcss.</h2>
 
-        <button class="mt-6 bg-courious-blue-prime py-3 px-6 font-bold rounded-lg">Explore</button>
+        <Button class="mt-6" color="primary">Explore</Button>
       </div>
     </div>
   </header>
 
-  <main>
-    <div>
-      <button>All</button>
-      <button>Ecommerce</button>
-      <button>Portfolio</button>
-      <button>Company</button>
+  <main class="bg-courious-blue-100 pt-8 pb-10 text-dark">
+    <div class="flex items-center justify-center gap-x-8">
+      <button type="button" class="font-bold text-courious-blue-prime">All</button>
+      <button type="button" class="font-bold">Ecommerce</button>
+      <button type="button" class="font-bold">Portfolio</button>
+      <button type="button" class="font-bold">Company</button>
     </div>
 
-    <div>
-      <div>Image1</div>
-      <div>Image2</div>
-      <div>Image3</div>
-      <div>Image4</div>
+    <div class="container mx-auto mt-9 grid lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div class="shadow-md rounded-xl overflow-hidden">
+        <img class="w-full" src="./assets/layout-01 1.jpg" />
+      </div>
+      <div class="shadow-md rounded-xl overflow-hidden">
+        <img class="w-full" src="./assets/layout-01 1.jpg" />
+      </div>
+      <div class="shadow-md rounded-xl overflow-hidden">
+        <img class="w-full" src="./assets/layout-01 1.jpg" />
+      </div>
+      <div class="shadow-md rounded-xl overflow-hidden">
+        <img class="w-full" src="./assets/layout-01 1.jpg" />
+      </div>
     </div>
 
-    <div>
-      <button>View More</button>
+    <div class="mt-9 flex items-center justify-center">
+      <Button color="primary">View More</Button>
     </div>
   </main>
 
