@@ -2,6 +2,8 @@
 import Nav from './components/Nav.vue';
 import Footer from './components/Footer.vue';
 import Button from './components/Button.vue';
+import Card from './components/Card.vue';
+import catalogImg from './assets/layout-01.jpg'
 </script>
 
 <template>
@@ -27,18 +29,10 @@ import Button from './components/Button.vue';
     </div>
 
     <div class="container mx-auto mt-9 grid lg:grid-cols-3 xl:grid-cols-4 gap-8">
-      <div class="drop-shadow-card rounded-xl overflow-hidden">
-        <img class="w-full" src="./assets/layout-01 1.jpg" />
-      </div>
-      <div class="drop-shadow-card rounded-xl overflow-hidden">
-        <img class="w-full" src="./assets/layout-01 1.jpg" />
-      </div>
-      <div class="drop-shadow-card rounded-xl overflow-hidden">
-        <img class="w-full" src="./assets/layout-01 1.jpg" />
-      </div>
-      <div class="drop-shadow-card rounded-xl overflow-hidden">
-        <img class="w-full" src="./assets/layout-01 1.jpg" />
-      </div>
+      <Card :img-src="catalogImg" title="Ecommerce" />
+      <Card :img-src="catalogImg" title="Ecommerce" />
+      <Card :img-src="catalogImg" title="Ecommerce" />
+      <Card :img-src="catalogImg" title="Ecommerce" />
     </div>
 
     <div class="mt-9 flex items-center justify-center">
