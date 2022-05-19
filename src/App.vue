@@ -1,10 +1,11 @@
 <script setup>
 import Nav from './components/Nav.vue';
+import Footer from './components/Footer.vue';
 //
 </script>
 
 <template>
-  <header class="relative bg-courious-blue-300 text-white min-h-[75vh]">
+  <header class="relative min-h-[75vh]">
     <Nav class="container mx-auto" />
       
     <div class="absolute h-full w-full flex items-center">
@@ -37,15 +38,5 @@ import Nav from './components/Nav.vue';
     </div>
   </main>
 
-  <footer>
-    <div>
-      <h3>twproject.</h3>
-      <p>free template for all.</p>
-    </div>
-
-    <div>
-      <button>Github</button>
-      <button>Documentation</button>
-    </div>
-  </footer>
+  <Footer class="container mx-auto" />
 </template>
