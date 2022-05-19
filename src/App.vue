@@ -4,13 +4,17 @@ import Nav from './components/Nav.vue';
 </script>
 
 <template>
-  <Nav />
+  <header class="relative bg-courious-blue-300 text-white min-h-[75vh]">
+    <Nav class="container mx-auto" />
+      
+    <div class="absolute h-full w-full flex items-center">
+      <div class="container mx-auto">
+        <h1 class="text-7xl font-bold">Tailwind based <br/> templates.</h1>
+        <h2 class="mt-4 font-medium">Project template develop with tailwindcss.</h2>
 
-  <header>
-    <h1>Tailwind based templates.</h1>
-    <h2>Project template develop with tailwindcss.</h2>
-
-    <button>Explore</button>
+        <button class="mt-6 bg-courious-blue-prime py-3 px-6 font-bold rounded-lg">Explore</button>
+      </div>
+    </div>
   </header>
 
   <main>
