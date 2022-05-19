@@ -1,15 +1,11 @@
 <script setup>
+import Nav from './components/Nav.vue';
 //
 </script>
 
 <template>
-  <nav>
-    <h3>twproject.</h3>
-    <ul>
-      <li>Documentation</li>
-      <li>Github</li>
-    </ul>
-  </nav>
+  <Nav />
+
   <header>
     <h1>Tailwind based templates.</h1>
     <h2>Project template develop with tailwindcss.</h2>
