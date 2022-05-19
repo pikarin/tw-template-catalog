@@ -16,7 +16,7 @@ module.exports = {
           prime: "#19A1E6",
           300: "#63BFEE",
           100: "#ACDDF6",
-          50: "#ACDDF6",
+          50: "#BFE5F8",
         },
         roman: {
           500: "#F54D3D",
